@@ -5,7 +5,7 @@ import Particle from "../Particle";
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.png";
 import twoohfoureight from "../../Assets/Projects/2048.png";
-import sirtet from "../../Assets/Projects/tetris48.png";
+import sirtet from "../../Assets/Projects/tetris128.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -26,7 +26,7 @@ function Projects() {
               imgPath={sirtet}
               isBlog={false}
               title="Tetris Extension"
-              description="wow blocks"
+              description="wow blocks lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
               demoLink="https://chromewebstore.google.com/detail/sirtet/ihladjbfkfejijomgfncgjgdlkaggkie"
             />
           </Col>
