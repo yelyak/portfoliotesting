@@ -26,7 +26,7 @@ function Projects() {
               imgPath={sirtet}
               isBlog={false}
               title="Tetris Extension"
-              description="wow blocks lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
+              description="Using Javascript, CSS, and html."
               demoLink="https://chromewebstore.google.com/detail/sirtet/ihladjbfkfejijomgfncgjgdlkaggkie"
             />
           </Col>
