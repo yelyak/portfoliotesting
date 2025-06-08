@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
+import invaders from "../../Assets/Projects/invaders.png";
+import titanic from "../../Assets/Projects/titanic.png";
 import twoohfoureight from "../../Assets/Projects/2048.png";
 import sirtet from "../../Assets/Projects/tetris128.png";
-// import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+import snek from "../../Assets/Projects/snek.png";
+import hangman from "../../Assets/Projects/hangman.png";
 
 function Projects() {
   return (
@@ -48,7 +48,7 @@ function Projects() {
               title="Titanic Survival Prediction with streamlit and scikitlearn"
               description="Using machine learning to predict survival of passengers on the titanic."
               ghLink="https://github.com/yelyak/titanic-pred"
-              demoLink="http://predictitanic.streamlit.app/"              
+              demoLink="http://predictitanic.streamlit.app/"
             />
           </Col>
 
