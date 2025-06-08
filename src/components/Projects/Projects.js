@@ -26,7 +26,7 @@ function Projects() {
               imgPath={sirtet}
               isBlog={false}
               title="Tetris Extension"
-              description="Using Javascript, CSS, and html."
+              description="Using Javascript, CSS, and html. 15 users!!"
               demoLink="https://chromewebstore.google.com/detail/sirtet/ihladjbfkfejijomgfncgjgdlkaggkie"
             />
           </Col>
@@ -36,55 +36,51 @@ function Projects() {
               imgPath={twoohfoureight}
               isBlog={false}
               title="2048 game with react"
-              description="react wow"
+              description="A react and javascript game based off 2048."
               demoLink="https://2048-beryl.vercel.app/"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={titanic}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Titanic Survival Prediction with streamlit and scikitlearn"
+              description="Using machine learning to predict survival of passengers on the titanic."
+              ghLink="https://github.com/yelyak/titanic-pred"
+              demoLink="http://predictitanic.streamlit.app/"              
             />
-          </Col> */}
+          </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={snek}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Snake Game"
+              description="Hungry snake game made with Python and pygame."
+              ghLink="https://github.com/yelyak/snek_game"
             />
-          </Col> */}
+          </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={invaders}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Space Invaders"
+              description="Psuedo-galaga game made with Python and pygame."
+              ghLink="https://github.com/yelyak/space_invaders"
             />
-          </Col> */}
+          </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={hangman}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Hangman"
+              description="Beginner hangman game with html, css, and javascript."
+              ghLink="https://github.com/yelyak/hangman"
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
