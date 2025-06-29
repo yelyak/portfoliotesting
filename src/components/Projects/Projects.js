@@ -59,6 +59,7 @@ function Projects() {
               title="Snake Game"
               description="Hungry snake game made with Python and pygame."
               ghLink="https://github.com/yelyak/snek_game"
+              demoLink="https://yelyak.itch.io/snake-game"
             />
           </Col>
 
@@ -69,6 +70,7 @@ function Projects() {
               title="Space Invaders"
               description="Psuedo-galaga game made with Python and pygame."
               ghLink="https://github.com/yelyak/space_invaders"
+              demoLink="https://yelyak.itch.io/space-invaders"
             />
           </Col>
 
@@ -79,6 +81,7 @@ function Projects() {
               title="Hangman"
               description="Beginner hangman game with html, css, and javascript."
               ghLink="https://github.com/yelyak/hangman"
+              demoLink="https://yelyak.github.io/hangman/"
             />
           </Col>
         </Row>
