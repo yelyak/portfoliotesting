@@ -8,6 +8,7 @@ import twoohfoureight from "../../Assets/Projects/2048.png";
 import sirtet from "../../Assets/Projects/tetris128.png";
 import snek from "../../Assets/Projects/snek.png";
 import hangman from "../../Assets/Projects/hangman.png";
+import countdowns from "../Assets/Projects/countdowns.png";
 
 function Projects() {
   return (
@@ -82,6 +83,16 @@ function Projects() {
               description="Beginner hangman game with html, css, and javascript."
               ghLink="https://github.com/yelyak/hangman"
               demoLink="https://yelyak.github.io/hangman/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={countdowns}
+              isBlog={false}
+              title="Countdowns"
+              description="Countdown, user-friendly anti-procrastination timer made wih html, css, and javascript."
+              ghLink="https://github.com/yelyak/countdowns"
+              demoLink="https://countdowns-sand.vercel.app/"
             />
           </Col>
         </Row>
