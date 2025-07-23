@@ -8,7 +8,7 @@ import twoohfoureight from "../../Assets/Projects/2048.png";
 import sirtet from "../../Assets/Projects/tetris128.png";
 import snek from "../../Assets/Projects/snek.png";
 import hangman from "../../Assets/Projects/hangman.png";
-import countdowns from "../Assets/Projects/countdowns.png";
+import countdowns from "../../Assets/Projects/countdowns.png";
 
 function Projects() {
   return (
